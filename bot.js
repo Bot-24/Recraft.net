@@ -21,7 +21,7 @@ bot.on('message', message => {
    } 
 });
 bot.on('message', message => {
-	if(message.author === 'bot') {
+	if(message.content === 'bot') {
 		message.channel.send('Der Bot ist bald 24/7 online!');
 	} 
 });
