@@ -18,7 +18,7 @@ bot.on("ready", () => {
 bot.on('message', message => {
 	if(message.content === 'help') {
 		message.channel.send('**Command List**');
-		message.channel.send('**bot**');
+		message.channel.send('_bot_');
    } 
 });
 bot.on('message', message => {
