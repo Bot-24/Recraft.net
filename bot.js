@@ -12,8 +12,9 @@ client.on('message', message => {
 });
 
 client.on('message'), message => {
-     if (message.content === 'server') {
-         message.reply('IP:. Comming Soon!, Prot:. 19132'):
+     if (message.content === 'IP') {
+         message.channel.send('IP:. Comming Soon!'):
+         message.channel.send('Port:. 19132'):
         } 
 });
 
