@@ -14,6 +14,10 @@ client.on('message', message => {
 client.on('message'), message => {
      if (message.content === 'IP') {
          message.channel.send('IP:. Comming Soon!'):
+     }
+
+client.on('message'), message =>{
+     if (message.content === 'PORT') {
          message.channel.send('Port:. 19132'):
         } 
 });
