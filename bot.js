@@ -14,9 +14,25 @@ client.on('message', message => {
 client.on('message'), message => {
      if (message.content === '+server') {
          message.reply('============'):
+        } 
+});
+
+client.on('message'), message => {
+     if (message.content === '+server') {
          message.reply('Server IP:. **Comming Soon!**'):
+        } 
+});
+
+client.on('message'), message => {
+     if (message.content === '+server') {
          message.reply('Port:. *19132*'):
+        } 
+});
+
+client.on('message'), message => {
+     if (message.content === '+server') {
          message.reply('============'):
+        } 
 });
 
 // THIS  MUST  BE  THIS  WAY
