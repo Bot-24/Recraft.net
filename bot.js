@@ -13,10 +13,10 @@ client.on('message', message => {
 
 client.on('message'), message => {
      if (message.content === 'server') {
-         message.reply('============', 
-         'Server IP:. **Comming Soon!**', 
-         'Port:. *19132*',
-         '============'):
+         message.reply('============ 
+         Server IP:. **Comming Soon!** 
+         Port:. *19132*
+         ============'):
         } 
 });
 
