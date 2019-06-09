@@ -18,19 +18,19 @@ client.on('message'), message => {
 });
 
 client.on('message'), message => {
-     if (message.content === 'server') {
+     if (message.content === '============') {
          message.reply('Server IP:. **Comming Soon!**'):
         } 
 });
 
 client.on('message'), message => {
-     if (message.content === 'server') {
+     if (message.content === 'Server IP:. Comming Soon!') {
          message.reply('Port:. *19132*'):
         } 
 });
 
 client.on('message'), message => {
-     if (message.content === 'server') {
+     if (message.content === 'Port:. 19132') {
          message.reply('============'):
         } 
 });
