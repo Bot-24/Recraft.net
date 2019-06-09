@@ -6,31 +6,31 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '+ping') {
+    if (message.content === 'ping') {
     	message.reply(':pong: 0ms.');
   	}
 });
 
 client.on('message'), message => {
-     if (message.content === '+server') {
+     if (message.content === 'server') {
          message.reply('============'):
         } 
 });
 
 client.on('message'), message => {
-     if (message.content === '+server') {
+     if (message.content === 'server') {
          message.reply('Server IP:. **Comming Soon!**'):
         } 
 });
 
 client.on('message'), message => {
-     if (message.content === '+server') {
+     if (message.content === 'server') {
          message.reply('Port:. *19132*'):
         } 
 });
 
 client.on('message'), message => {
-     if (message.content === '+server') {
+     if (message.content === 'server') {
          message.reply('============'):
         } 
 });
