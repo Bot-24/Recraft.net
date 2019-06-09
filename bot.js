@@ -6,9 +6,17 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
+    if (message.content === '+ping') {
     	message.reply(':pong: 0ms.');
   	}
+});
+
+client.on('message'), message => {
+     if (message.content === '+server') {
+         message.reply('============'):
+         message.reply('Server IP:. **Comming Soon!**'):
+         message.reply('Port:. *19132*'):
+         message.reply('============'):
 });
 
 // THIS  MUST  BE  THIS  WAY
