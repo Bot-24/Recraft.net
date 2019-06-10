@@ -11,6 +11,10 @@ client.on('message', message => {
   	}
 });
 
-
+client.on('message', message => {
+     if (message.content === 'botcoder') {
+         message.channel.send('Bot-Owner/Developer | LennexDev'):
+         } 
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
