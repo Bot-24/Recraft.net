@@ -12,8 +12,8 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-     if (command === 'botcoder') {
-         message.channel.send('Bot-Owner/Developer | LennexDev'):
+     if (message.content === 'botcoder') {
+         message.reply('Bot-Owner/Developer  LennexDev'):
          } 
 });
 // THIS  MUST  BE  THIS  WAY
