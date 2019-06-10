@@ -12,7 +12,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-     if (message.content === 'botcoder') {
+     if (command === 'botcoder') {
          message.channel.send('Bot-Owner/Developer | LennexDev'):
          } 
 });
